@@ -1,0 +1,47 @@
+{
+  "intents" :[
+    {
+    	"intent" : "SetIntent",
+      	"slots" :[
+        	{
+          		"name": "State",
+          		"type": "AH_STATES"
+          	},
+          	{
+              	"name": "Device",
+              	"type":	"AH_DEVICES"
+          	}
+        ]
+  	},
+    {
+    	"intent" : "ToggleIntent",
+      	"slots" :[
+          	{
+              	"name": "Device",
+              	"type":	"AH_DEVICES"
+          	}
+        ]
+  	},
+        {
+    	"intent" : "GetIntent",
+      	"slots" :[
+          	{
+              	"name": "Input",
+              	"type":	"AH_INPUTS"
+          	}
+        ]
+  	},
+    {
+  		"intent" : "AMAZON.HelpIntent"
+	}
+  ]
+}
+
+SetIntent turn {Device} {State}
+SetIntent set {Device} state to {State}
+SetIntent turn {State} the {Device}
+ToggleIntent toogle {Device}
+ToggleIntent toogle {Device} state
+GetIntent how is the {Input}
+GetIntent how's the {Input}
+GetIntent at what level is the {Input}
