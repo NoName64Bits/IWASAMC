@@ -34,3 +34,9 @@ Aici lucrurile se complica putin si de aceea este nevoie de infrastructura exter
 
 Update:
     Cateva probleme pe partea de alimentare au cauzat supra alimentarea unor module (M1 si M1S0), consecinta logica este defectarea modulelor. In concluzie codul a fost adaptat astfel incat modulul M0 va indeplini functiile modulelor M1 si M1S0.
+
+Cod sursa:
+  - CC (PI - directorul "pi")
+  - M0 (Arduino Yun - directorul "yun")
+
+Info: Fiecare director contine un alt fisier "README" cu mai multe informatii referitoare la acea parte din software.
