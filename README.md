@@ -38,5 +38,5 @@ Update:
 Cod sursa:
   - CC (PI - directorul "pi")
   - M0 (Arduino Yun - directorul "yun")
-
-Info: Fiecare director contine un alt fisier "README" cu mai multe informatii referitoare la acea parte din software.
+  - Processing Server (IBM Bluemix - directorul "nodeJSServer")
+  - Endpoint Server (www.carabella.ro - directorul "phpServer")
